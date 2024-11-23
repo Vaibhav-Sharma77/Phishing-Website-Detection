@@ -106,7 +106,7 @@ def extract_features(url):
     return features
 
 # Load pre-trained model
-with open('phishing_model.pkl', 'rb') as model_file:
+with open('phishing_random.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
 
 # Streamlit app
